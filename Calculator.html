@@ -12,11 +12,22 @@ num.value = Math.pow(num.value, 3);
 
 }
 
+
 function sen() {
 
 var num = document.getElementById("n1");
 
 num.value = Math.sen(num.value);
+
+}
+
+function exp4() {
+
+var num = document.getElementById("n2");
+
+num.value = Math.pow(num.value, 4);
+
+
 }
 
 </script>
@@ -24,6 +35,7 @@ num.value = Math.sen(num.value);
 </head>
 
 <body>
+
 <h1>Calculadora de Sonia Jimenez </h1>
 Number:
 
@@ -31,6 +43,11 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="sen()"> sen x </button>
+
+Number 2:
+<input type="text" id="n2"><p>
+
+<button onclick="exp4()"> x^4 </button>
 
 </body>
 
